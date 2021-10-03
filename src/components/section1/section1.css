@@ -1,0 +1,61 @@
+.section1 {
+  background: url('../../images/hero1.webp');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.section2 {
+  background: url('../../images/hero2.webp');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.section3 {
+  background: url('../../images/hero3.webp');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.section4 {
+  background: url('../../images/hero4.webp');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.section5 {
+  background: url('../../images/hero5.webp');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.content {
+  padding-top: 50vh;
+  padding-left: 150px;
+}
+
+.content h1 {
+  width: 30%;
+}
+
+.subtitle {
+  font-size: 20px;
+}
+
+.description {
+  margin-bottom: 30px;
+}

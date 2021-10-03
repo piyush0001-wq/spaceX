@@ -1,0 +1,46 @@
+.custom-btn {
+  width: 170px;
+  height: 60px;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+}
+
+.btn-14 {
+  background: transparent;
+  border: 2px solid white;
+  z-index: 1;
+}
+
+.btn-14:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: white;
+  background-image: white;
+  transition: all 0.3s ease;
+}
+
+.btn-14:hover {
+  color: #000;
+}
+
+.btn-14:hover:after {
+  top: auto;
+  bottom: 0;
+  height: 100%;
+}
+
+.btn-14:active {
+  top: 2px;
+}
